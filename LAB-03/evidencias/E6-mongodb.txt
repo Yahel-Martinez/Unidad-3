@@ -1,0 +1,12 @@
+## Colecciones identificadas
+
+| Colección | Documentos |
+|---|---:|
+| clientes | 5 |
+| system.profile | 0 |
+
+## Observaciones
+
+La colección `clientes` contiene cinco documentos de clientes.
+
+La colección `system.profile` existe y está habilitada para registrar operaciones de perfilado. Actualmente contiene cero documentos, debido a que no se han registrado operaciones que cumplan el umbral de captura configurado.

@@ -1,0 +1,5 @@
+id_evento,momento,usuario_sesion,aplicacion,operacion,id_cliente
+4,2026-11-26 03:05:30.314219-06,postgres,psql,INSERT,7
+3,2026-11-26 03:05:30.314219-06,postgres,psql,INSERT,6
+2,2026-11-26 02:36:34.679358-06,postgres,psql,UPDATE,1
+1,2026-11-26 02:35:56.470308-06,postgres,psql,UPDATE,1

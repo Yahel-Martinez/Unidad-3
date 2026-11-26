@@ -1,0 +1,19 @@
+num,momento,usuario,sentencia
+79,2026-11-26 01:58:30.181,postgres,"CREATE SCHEMA dba;"
+102,2026-11-26 01:58:46.668,postgres,"ALTER SYSTEM SET log_connections = on;"
+103,2026-11-26 01:58:49.875,postgres,"ALTER SYSTEM SET log_disconnections = on;"
+104,2026-11-26 01:58:52.728,postgres,"ALTER SYSTEM SET log_line_prefix ="
+106,2026-11-26 01:58:56.007,postgres,"ALTER SYSTEM SET log_statement = 'ddl';"
+113,2026-11-26 02:03:21.567,postgres,"CREATE OR REPLACE VIEW dba.bitacora AS"
+123,2026-11-26 02:10:04.744,postgres,"CREATE TABLE public.clientes ("
+134,2026-11-26 02:12:50.661,postgres,"CREATE ROLE app_ventas LOGIN;"
+136,2026-11-26 02:13:29.148,postgres,"GRANT CONNECT ON DATABASE comercial TO app_ventas;"
+195,2026-11-26 02:30:17.145,postgres,"ALTER SYSTEM SET log_statement = 'mod';"
+198,2026-11-26 02:33:39.799,postgres,"CREATE SCHEMA auditoria;"
+199,2026-11-26 02:34:36.279,postgres,"CREATE TABLE auditoria.cambios_clientes ("
+209,2026-11-26 02:35:20.567,postgres,"CREATE OR REPLACE FUNCTION auditoria.registrar_cambio_cliente()"
+244,2026-11-26 02:35:36.765,postgres,"CREATE TRIGGER trg_auditoria_clientes"
+397,2026-11-26 04:54:24.839,postgres,"ALTER TABLE public.clientes"
+401,2026-11-26 04:56:10.326,postgres,"CREATE SCHEMA gobierno;"
+402,2026-11-26 04:56:10.333,postgres,"REVOKE ALL ON SCHEMA gobierno FROM PUBLIC;"
+403,2026-11-26 04:56:11.010,postgres,"CREATE TABLE gobierno.solicitudes_cambio ("

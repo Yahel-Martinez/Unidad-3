@@ -1,0 +1,10 @@
+table_name,column_name,data_type,is_nullable,descripcion
+clientes,id,bigint,NO,Identificador único de cada cliente.
+clientes,nombre,character varying,YES,Nombre completo del cliente.
+clientes,correo,character varying,YES,Dirección de correo electrónico del cliente.
+clientes,telefono,character varying,YES,Número telefónico de contacto del cliente.
+clientes,rfc,character varying,YES,Registro Federal de Contribuyentes del cliente.
+clientes,edad,integer,YES,Edad del cliente expresada en años.
+clientes,ciudad,character varying,YES,Ciudad de residencia del cliente.
+clientes,codigo_postal,character varying,YES,Código postal correspondiente al domicilio del cliente.
+clientes,fecha_alta,date,YES,Fecha en que el cliente fue registrado en el sistema.
